@@ -3,6 +3,7 @@ package bean;
 public class Utilisateur {
 
 	private int id;
+	private String login;
 	private String prenom;
 	private String nom;
 	private String email;
@@ -16,6 +17,14 @@ public class Utilisateur {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
 	}
 
 	public String getPrenom() {
